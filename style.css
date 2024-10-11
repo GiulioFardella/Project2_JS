@@ -41,6 +41,8 @@ margin-top: auto; }
 
 #orangetitle { color: white; 
 font-size: smaller;
+text-align: center;
+
 }
 
 
@@ -74,10 +76,11 @@ color: white;}
  #finallogo { background-color: rgb(42, 42, 80);
  display: flex;
  justify-content: center;
-
-
-
-}
+ height: 200px
+ }
+#amazon { height: 75px;
+margin-top: auto;
+margin-bottom: auto;}
 
 .immagine { border-radius: 15px;
  width: 25%;
