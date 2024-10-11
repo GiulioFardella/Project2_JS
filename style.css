@@ -1,8 +1,11 @@
 body { width: 100%; 
     background-color: rgba(211, 213, 214, 0.411);
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+margin-left: 40px;
+margin-right: 40px;}
     
-    p { font-size: small;}
+    p { font-size:medium;
+    }
 a { text-decoration: none;}
 #logo { 
     height: 30px;
@@ -40,6 +43,8 @@ margin-top: auto; }
 font-size: smaller;
 }
 
+
+
 #headholyday { background-image: url(assets/images/bg-image.png);
     background-size: cover;
 width: 100%;
@@ -49,12 +54,40 @@ padding-top: 35px;
 color: white;}
 
 #findtheperfectgift { background-color: white;
-display: flex;}
+}
 
 #fourimages { 
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
 }
-.immagine { height: 150px;
-width: 25%;
-object-fit: cover;
-border-radius: 10px;}
+
+#footbar { width: 100%;
+    background-color:rgb(68,68,128);
+  display: flex;
+  justify-content: center;
+  color: white;
+    
+}
+ #finallogo { background-color: rgb(42, 42, 80);
+ display: flex;
+ justify-content: center;
+
+
+
+}
+
+.immagine { border-radius: 15px;
+ width: 25%;
+    margin-right: 30px;
+    box-shadow: 0 4px 8px;
+    height: 350
+    
+}
+
+.blockimage { width: 100%;
+margin-top: 30px;}
+
+.specialp { text-align: center;}
